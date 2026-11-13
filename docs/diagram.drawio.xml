@@ -1,150 +1,206 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="iNfv7NQ0uYDw07Lf_qFz">
-    <mxGraphModel dx="1555" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x9WPEdCdVsjd_yXRYRwU-1" edge="1" parent="1" source="_9dRW_66L36c_lWVWwZM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_9dRW_66L36c_lWVWwZM-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="150" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--3" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e_start_ask" edge="1" parent="1" source="_9dRW_66L36c_lWVWwZM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Cv-wMVfRz0P3Nc6_CGj--13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Read API Key" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="main/src.py" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--6" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--9" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Was there a key found?" vertex="1">
-          <mxGeometry height="80" width="140" x="140" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="290" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Print an error and stop the program" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--14" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="470" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="src/main.py" vertex="1">
+          <mxGeometry height="30" width="70" x="130" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Ask for players and season" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="380" as="geometry" />
+          <mxGeometry height="50" width="120" x="150" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Names + Season" vertex="1">
-          <mxGeometry height="30" width="100" x="100" y="435" as="geometry" />
+        <mxCell id="e_ask_search" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n_search">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--18" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="l_names" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Names + Season" vertex="1">
+          <mxGeometry height="30" width="100" x="100" y="215" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--22" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="495" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="n_search" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Search ESPN for a name" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Request for each player" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="470" as="geometry" />
+        <mxCell id="e_search_keep" edge="1" parent="1" source="n_search" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n_keep">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Responses" vertex="1">
-          <mxGeometry height="30" width="60" x="130" y="525" as="geometry" />
+        <mxCell id="l_resp1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Responses" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="305" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--21" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="600" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="n_keep" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Keep NBA players only" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--29" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="690" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e_keep_d1" edge="1" parent="1" source="n_keep" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="d_match">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--20" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Were players found?" vertex="1">
-          <mxGeometry height="80" width="140" x="140" y="560" as="geometry" />
+        <mxCell id="l_nba" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NBA players" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request + key" vertex="1">
-          <mxGeometry height="30" width="120" x="270" y="463" as="geometry" />
+        <mxCell id="d_match" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="NBA match?" vertex="1">
+          <mxGeometry height="80" width="140" x="140" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="510" as="sourcePoint" />
-            <mxPoint x="270" y="510" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e_no1" edge="1" parent="1" source="d_match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="x_err1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="NBA Stats API Key" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="470" as="geometry" />
+        <mxCell id="l_no1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JSON Response" vertex="1">
-          <mxGeometry height="30" width="120" x="270" y="520" as="geometry" />
+        <mxCell id="x_err1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Print an error and stop the program" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Print an error and stop the program" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="570" as="geometry" />
+        <mxCell id="e_d1_get" edge="1" parent="1" source="d_match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n_getpt">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="300" y="570" as="geometry" />
+        <mxCell id="l_yes1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="515" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
-          <mxGeometry height="30" width="60" x="150" y="650" as="geometry" />
+        <mxCell id="n_getpt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Get position and team" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--33" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="790" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e_get_pick" edge="1" parent="1" source="n_getpt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n_pick">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_cand" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Candidates" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="n_pick" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="User picks from the list" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pick_req" edge="1" parent="1" source="n_pick" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n_req">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_chosen" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Chosen ID" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="n_req" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Request season stats" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="e_req_d2" edge="1" parent="1" source="n_req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="d_stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_resp2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Responses" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="d_stats" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Stats found?" vertex="1">
+          <mxGeometry height="80" width="140" x="140" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="e_no2" edge="1" parent="1" source="d_stats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="x_err2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_no2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="x_err2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Print an error and stop the program" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d2_parse" edge="1" parent="1" source="d_stats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Cv-wMVfRz0P3Nc6_CGj--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_yes2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="905" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Parse JSON Stats" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="690" as="geometry" />
+          <mxGeometry height="50" width="120" x="150" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--37" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Calculate Weighted Scores" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="790" as="geometry" />
+        <mxCell id="e_parse_calc" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Cv-wMVfRz0P3Nc6_CGj--35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Stats dictionaries" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="750" as="geometry" />
+          <mxGeometry height="30" width="100" x="100" y="995" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--41" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="1000" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Calculate Weighted Scores" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Print table and who better player is" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="890" as="geometry" />
+        <mxCell id="e_calc_print" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Cv-wMVfRz0P3Nc6_CGj--39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Scores" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="850" as="geometry" />
+          <mxGeometry height="30" width="60" x="140" y="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Print table and who better player is" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="e_print_end" edge="1" parent="1" source="Cv-wMVfRz0P3Nc6_CGj--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Cv-wMVfRz0P3Nc6_CGj--43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Output" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="960" as="geometry" />
+          <mxGeometry height="30" width="60" x="140" y="1185" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--43" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End" vertex="1">
-          <mxGeometry height="50" width="120" x="150" y="1000" as="geometry" />
+          <mxGeometry height="50" width="120" x="150" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="x_espn1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="ESPN: search" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="e_espn1_out" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="275" as="sourcePoint" />
+            <mxPoint x="390" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_espn1_back" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_espn1_out" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Search text" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="l_espn1_back" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JSON Response" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="x_espn2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="ESPN: player + team" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="e_espn2_out" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="575" as="sourcePoint" />
+            <mxPoint x="390" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_espn2_back" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="270" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_espn2_out" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Player IDs" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="l_espn2_back" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Position + team" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="x_espn3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="ESPN: season stats" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="e_espn3_out" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="755" as="sourcePoint" />
+            <mxPoint x="390" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_espn3_back" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="270" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_espn3_out" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ID + season" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="l_espn3_back" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JSON Response" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="b_loop" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="440" width="20" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="l_loop" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=270;" value="Repeat for each player" vertex="1">
+          <mxGeometry height="30" width="180" x="-15" y="455" as="geometry" />
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="510" y="20" as="geometry" />
@@ -163,9 +219,6 @@
         </mxCell>
         <mxCell id="Cv-wMVfRz0P3Nc6_CGj--49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;=&amp;nbsp; &amp;nbsp; &amp;nbsp; External (start, end, API)" vertex="1">
           <mxGeometry height="30" width="170" x="560" y="145" as="geometry" />
-        </mxCell>
-        <mxCell id="Cv-wMVfRz0P3Nc6_CGj--50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Key Value" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
