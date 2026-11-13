@@ -12,8 +12,8 @@ I am building a Python command line program that lets you enter two NBA players 
 
 The MVP includes:
 
-- Reading the API key from an environment variable and sending authenticated requests
-- Looking up two players by name and season, and handling names the API cannot find
+- Searching ESPN by player name, then letting the user pick from a list that shows each player's position and team for the chosen season
+- Requesting season stats from ESPN's public NBA endpoints, which needs no API key
 - Printing points, rebounds, assists, and shooting percentages side by side
 - Calculating a weighted overall score and showing which player scores higher
 
@@ -24,15 +24,15 @@ The planning documents are in the `docs/` folder: the [Eisenhower matrix](docs/E
 ## Tech Stack
 
 - **Language:** Python
-- **requests:** Sends the HTTP calls to the API and returns the JSON response
-- **json:** Reads the data the API sends back into Python dictionaries
-- **os:** Reads the API key from an environment variable
-- **curl:** Used once in the terminal to test the API before writing any code
-- **Git and GitHub:** Version control for the project, with the API key kept out of the code and the repo
+- **requests:** Sends the HTTP calls to ESPN and returns the JSON response
+- **json:** Reads the data ESPN sends back into Python dictionaries
+- **Data source:** ESPN's public NBA endpoints, which needs no API key
+- **curl:** Used in the terminal to test the endpoints before writing any code
+- **Git and GitHub:** Version control for the project, with a commit history that follows my build plan
 
 ## Roadmap
 
 - [ ] Career-wide overall score across all seasons
 - [ ] Percentile rankings against the rest of the league
 - [ ] Playoff stats and advanced metrics such as PER
-- [ ] Saving API responses to a local file to stay within rate limits
+- [ ] Saving ESPN responses to a local file so repeat lookups make fewer requests
